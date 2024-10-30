@@ -13,6 +13,9 @@ class Select extends Phaser.Scene {
 	}
 
 	preload() {
+		// GitHub Pages에서의 repository-name을 설정
+		this.load.setBaseURL('/PROJECT2');
+		
 		this.load.audio('selecthover', '/audio/selecthover.mp3'); //케릭터 선택 효과음
 		this.load.audio('jangreac', '/audio/jangreac.mp3'); //짱구 선택 효과음
 		this.load.audio('chulreac', '/audio/chulreac.mp3'); //철수 선택 효과음

@@ -5,6 +5,9 @@ class quizpop extends Phaser.Scene {
     }
 
     preload() {
+        // GitHub Pages에서의 repository-name을 설정
+		 this.load.setBaseURL('/PROJECT2');
+         
         this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         this.load.audio('quizpopbgm', '/audio/quizpopbgm.mp3'); // 퀴즈팝 BGM
         this.load.audio('correct', '/audio/correct.mp3'); // 정답

@@ -4,6 +4,9 @@ class Game extends Phaser.Scene {
 	}
 
 	preload() {
+		// GitHub Pages에서의 repository-name을 설정
+		this.load.setBaseURL('/PROJECT2');
+		
 		this.load.audio('janggamebgm', '/audio/janggamebgm.mp3'); //게임중 bgm
 		this.load.audio('jump', '/audio/jump.mp3'); // 점프 소리
 		this.load.audio('bomb', '/audio/bomb.mp3'); // 폭탄 소리

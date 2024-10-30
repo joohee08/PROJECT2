@@ -14,6 +14,9 @@ class How3 extends Phaser.Scene {
 	}
 
 	preload() {
+		// GitHub Pages에서의 repository-name을 설정
+		this.load.setBaseURL('/PROJECT2');
+		
 		this.load.audio('janga', '/audio/janga.mp3'); //짱아버튼 클릭
 	}
 
