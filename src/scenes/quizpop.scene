@@ -1,0 +1,44 @@
+{
+    "id": "f52b862e-78b2-4e98-8982-001e1fb42389",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "quizpop",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "29aeae6d-68f1-4bc8-980b-7794a2a72583",
+            "label": "quizbackground",
+            "texture": {
+                "key": "quizbackground"
+            },
+            "x": 639,
+            "y": 357,
+            "scaleX": 2.1,
+            "scaleY": 2.1
+        },
+        {
+            "type": "Image",
+            "id": "71710818-fe95-403f-b321-a94cbd09184e",
+            "label": "x",
+            "texture": {
+                "key": "x"
+            },
+            "x": 1202,
+            "y": 93,
+            "scaleX": 0.15,
+            "scaleY": 0.15
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

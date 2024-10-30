@@ -1,0 +1,250 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/action.png",
+                "type": "image",
+                "key": "action"
+            },
+            {
+                "url": "assets/arrow.png",
+                "type": "image",
+                "key": "arrow"
+            },
+            {
+                "url": [
+                    "assets/background.mp4"
+                ],
+                "type": "video",
+                "key": "background"
+            },
+            {
+                "url": "assets/background.png",
+                "type": "image",
+                "key": "background_1"
+            },
+            {
+                "url": "assets/bomb.png",
+                "type": "image",
+                "key": "bomb"
+            },
+            {
+                "url": "assets/charac-end.png",
+                "type": "image",
+                "key": "charac-end"
+            },
+            {
+                "url": "assets/charac1.png",
+                "type": "image",
+                "key": "charac1"
+            },
+            {
+                "url": "assets/charac2.png",
+                "type": "image",
+                "key": "charac2"
+            },
+            {
+                "url": "assets/charac3.png",
+                "type": "image",
+                "key": "charac3"
+            },
+            {
+                "url": "assets/charac4.png",
+                "type": "image",
+                "key": "charac4"
+            },
+            {
+                "url": "assets/charac5.png",
+                "type": "image",
+                "key": "charac5"
+            },
+            {
+                "url": "assets/chocobi.png",
+                "type": "image",
+                "key": "chocobi"
+            },
+            {
+                "url": "assets/chocobisnack.png",
+                "type": "image",
+                "key": "chocobisnack"
+            },
+            {
+                "url": "assets/choose.png",
+                "type": "image",
+                "key": "choose"
+            },
+            {
+                "url": "assets/chulsumom.png",
+                "type": "image",
+                "key": "chulsumom"
+            },
+            {
+                "url": "assets/clickme.png",
+                "type": "image",
+                "key": "clickme"
+            },
+            {
+                "url": "assets/clock.png",
+                "type": "image",
+                "key": "clock"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/dog.png",
+                "type": "image",
+                "key": "dog"
+            },
+            {
+                "url": "assets/false.png",
+                "type": "image",
+                "key": "false"
+            },
+            {
+                "url": "assets/first-btn.png",
+                "type": "image",
+                "key": "first-btn"
+            },
+            {
+                "url": "assets/hands.png",
+                "type": "image",
+                "key": "hands"
+            },
+            {
+                "url": "assets/heart.png",
+                "type": "image",
+                "key": "heart"
+            },
+            {
+                "url": "assets/howto.png",
+                "type": "image",
+                "key": "howto"
+            },
+            {
+                "url": "assets/howto-2.png",
+                "type": "image",
+                "key": "howto-2"
+            },
+            {
+                "url": "assets/hunimom.png",
+                "type": "image",
+                "key": "hunimom"
+            },
+            {
+                "url": "assets/jang.png",
+                "type": "image",
+                "key": "jang"
+            },
+            {
+                "url": "assets/janga.png",
+                "type": "image",
+                "key": "janga"
+            },
+            {
+                "url": "assets/jangumom.png",
+                "type": "image",
+                "key": "jangumom"
+            },
+            {
+                "url": "assets/keycur.png",
+                "type": "image",
+                "key": "keycur"
+            },
+            {
+                "url": "assets/moss.png",
+                "type": "image",
+                "key": "moss"
+            },
+            {
+                "url": "assets/moyappi.png",
+                "type": "image",
+                "key": "moyappi"
+            },
+            {
+                "url": "assets/next.png",
+                "type": "image",
+                "key": "next"
+            },
+            {
+                "url": "assets/paprica.png",
+                "type": "image",
+                "key": "paprica"
+            },
+            {
+                "url": "assets/pig.png",
+                "type": "image",
+                "key": "pig"
+            },
+            {
+                "url": "assets/quizbackground.png",
+                "type": "image",
+                "key": "quizbackground"
+            },
+            {
+                "url": "assets/quiztell.png",
+                "type": "image",
+                "key": "quiztell"
+            },
+            {
+                "url": "assets/retry-btn.png",
+                "type": "image",
+                "key": "retry-btn"
+            },
+            {
+                "url": "assets/rock.png",
+                "type": "image",
+                "key": "rock"
+            },
+            {
+                "url": "assets/spacebar.png",
+                "type": "image",
+                "key": "spacebar"
+            },
+            {
+                "url": "assets/start-btn.png",
+                "type": "image",
+                "key": "start-btn"
+            },
+            {
+                "url": "assets/suzy.png",
+                "type": "image",
+                "key": "suzy"
+            },
+            {
+                "url": "assets/title.png",
+                "type": "image",
+                "key": "title"
+            },
+            {
+                "url": "assets/true.png",
+                "type": "image",
+                "key": "true"
+            },
+            {
+                "url": "assets/x.png",
+                "type": "image",
+                "key": "x"
+            },
+            {
+                "url": "assets/yuridoll.png",
+                "type": "image",
+                "key": "yuridoll"
+            },
+            {
+                "url": "assets/yurimom.png",
+                "type": "image",
+                "key": "yurimom"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

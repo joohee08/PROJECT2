@@ -1,0 +1,32 @@
+{
+    "id": "41a38a4a-b286-4644-8932-4937bd97f7ee",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Game",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f67bbe9c-d6d4-4363-9e10-e505a779d20b",
+            "label": "background_1",
+            "texture": {
+                "key": "background_1"
+            },
+            "x": 643,
+            "y": 359,
+            "scaleX": 0.67,
+            "scaleY": 0.67
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

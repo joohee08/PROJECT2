@@ -1,0 +1,133 @@
+{
+    "id": "55c3599f-11ae-42e0-a343-e828a01e4db5",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "How3",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "341ecf6c-2a82-4f48-b55c-662d1316b2c3",
+            "label": "rectangle_1",
+            "x": 641,
+            "y": 362,
+            "scaleX": 10.07,
+            "scaleY": 5.57,
+            "isFilled": true,
+            "fillColor": "#eff6b3",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "214d8aad-99a2-42a0-9002-1b8b67ba7ed0",
+            "label": "quiztell",
+            "texture": {
+                "key": "quiztell"
+            },
+            "x": 640,
+            "y": 302,
+            "scaleX": 0.6,
+            "scaleY": 0.55
+        },
+        {
+            "type": "Text",
+            "id": "e9d392b9-cca4-48a8-9e22-78d715c38295",
+            "label": "text_1",
+            "x": 527,
+            "y": 51,
+            "scaleX": 0.65,
+            "scaleY": 0.8,
+            "text": "랜덤 퀴즈!",
+            "fontSize": "70px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "cb415577-4b4b-4756-bdfd-0973d28e1a1f",
+            "label": "text_2",
+            "x": 338,
+            "y": 538,
+            "text": "정답:",
+            "fontSize": "25px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "c44b966b-99d2-4cef-9c33-44e9fee57fdc",
+            "label": "text",
+            "x": 770,
+            "y": 538,
+            "text": "오답:",
+            "fontSize": "25px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Image",
+            "id": "42816281-0c69-47ad-a167-ddf38a65c569",
+            "label": "heart",
+            "texture": {
+                "key": "heart"
+            },
+            "x": 484,
+            "y": 552,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        },
+        {
+            "type": "Image",
+            "id": "52e79584-1a08-4043-b897-f4039335120c",
+            "label": "heart_1",
+            "texture": {
+                "key": "heart"
+            },
+            "x": 906,
+            "y": 549,
+            "scaleX": 0.2,
+            "scaleY": 0.2
+        },
+        {
+            "type": "Text",
+            "id": "816c87e6-c360-4606-9d57-8b344276a32c",
+            "label": "text_3",
+            "x": 423,
+            "y": 529,
+            "text": "+",
+            "fontSize": "50px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "1072044c-0dd8-4a97-af2d-2a47fa0a89cf",
+            "label": "text_4",
+            "x": 843,
+            "y": 530,
+            "text": "-",
+            "fontSize": "50px",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Image",
+            "id": "cf3d43b1-22ce-499a-b0b4-9d4eff6a5978",
+            "label": "janga",
+            "texture": {
+                "key": "janga"
+            },
+            "x": 87,
+            "y": 655,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

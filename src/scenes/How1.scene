@@ -1,0 +1,129 @@
+{
+    "id": "a1620611-54bd-4d23-ac5d-7009b0fd7aec",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "How1",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "d075f146-633b-43d8-9155-8da2b2c46ec0",
+            "label": "rectangle_1",
+            "x": 634,
+            "y": 357,
+            "scaleX": 10.07,
+            "scaleY": 5.57,
+            "isFilled": true,
+            "fillColor": "#dfea85",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "306cbe37-72d5-4a4c-84db-d5556da4a08a",
+            "label": "howto",
+            "texture": {
+                "key": "howto"
+            },
+            "x": 298,
+            "y": 181,
+            "scaleX": 0.35,
+            "scaleY": 0.35
+        },
+        {
+            "type": "Image",
+            "id": "882bb06f-e5a7-4582-ab2c-92f09aa065a4",
+            "label": "howto_2",
+            "texture": {
+                "key": "howto-2"
+            },
+            "x": 298,
+            "y": 520,
+            "scaleX": 0.35,
+            "scaleY": 0.35
+        },
+        {
+            "type": "Image",
+            "id": "f2199fe2-620f-4b56-adeb-507a110765cb",
+            "label": "keycur",
+            "texture": {
+                "key": "keycur"
+            },
+            "x": 741,
+            "y": 136,
+            "scaleX": 0.35,
+            "scaleY": 0.4
+        },
+        {
+            "type": "Text",
+            "id": "d3c6f43c-90ce-4351-9810-fa8d5bb65b91",
+            "label": "text_2",
+            "x": 624,
+            "y": 257,
+            "scaleX": 3.25,
+            "scaleY": 3.35,
+            "text": "방향키 오른쪽 왼쪽 이동",
+            "fontFamily": "Roboto",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "f8df739d-e1b9-4a92-8ae7-ceb099323e7e",
+            "label": "text_3",
+            "x": 878,
+            "y": 402,
+            "scaleX": 3.25,
+            "scaleY": 2.65,
+            "text": "점프",
+            "fontFamily": "Roboto",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Text",
+            "id": "23bceeb0-bbf9-408f-b9d7-4452f2acb073",
+            "label": "text_4",
+            "x": 603,
+            "y": 487,
+            "scaleX": 1.05,
+            "scaleY": 3,
+            "text": "랜덤으로 떨어지는 아이템을 획득하여 제한시간안에 점수를 얻는다.\n케릭터별로 피해야할 아이템이 있다. 피하지 못할 경우 -10점과 함께 생명이 날아간다. \n생명을 얻을수있는 기회=엄마를 잡아라!!!",
+            "fontFamily": "Roboto",
+            "color": "#000000ff"
+        },
+        {
+            "type": "Image",
+            "id": "2d8853fc-808a-4838-b412-27f943ddc6ee",
+            "label": "spacebar",
+            "texture": {
+                "key": "spacebar"
+            },
+            "x": 741,
+            "y": 418,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Image",
+            "id": "dc558f47-b401-43da-a9f4-3591b55823a0",
+            "label": "arrow",
+            "texture": {
+                "key": "arrow"
+            },
+            "x": 1208,
+            "y": 667,
+            "scaleX": 0.35,
+            "scaleY": 0.5
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
