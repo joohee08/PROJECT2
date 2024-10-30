@@ -6,7 +6,7 @@ class quizpop extends Phaser.Scene {
 
     preload() {
         // GitHub Pages에서의 repository-name을 설정
-		 this.load.setBaseURL('/PROJECT2');
+		 this.load.setBaseURL('/PROJECT2'); //로컬 서버에서 실행하고싶으면 이부분을 모두 주석처리하면 됩니다
 
         this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         this.load.audio('quizpopbgm', '/audio/quizpopbgm.mp3'); // 퀴즈팝 BGM
@@ -138,6 +138,16 @@ class quizpop extends Phaser.Scene {
     createRandomQuestion() {
         const randomQuestionIndex = Phaser.Math.Between(0, this.questions.length - 1);
         const selectedQuestion = this.questions[randomQuestionIndex];
+
+         // 기본 폰트 크기 설정
+        let fontSize = 70;
+
+        // 텍스트 길이에 따라 폰트 크기 조정 (너무 길 경우 폰트 크기를 줄임)
+        if (selectedQuestion.question.length > 30) {
+            fontSize = 50;
+        } else if (selectedQuestion.question.length > 20) {
+            fontSize = 60;
+        }
 
         const questionText = this.add.text(700, 230, selectedQuestion.question, {
             fontFamily: 'Nanum Gothic',

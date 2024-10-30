@@ -15,7 +15,7 @@ class Preload extends Phaser.Scene {
 		this.editorPreload();
 
 		 // GitHub Pages에서의 repository-name을 설정
-		 this.load.setBaseURL('/PROJECT2');
+		 this.load.setBaseURL('/PROJECT2'); //로컬 서버에서 실행하고싶으면 이부분을 모두 주석처리하면 됩니다
 
 		// 기존 파일 로드 외에 BGM 파일 로드 추가
 		this.load.audio('jangtitlebgm', '/audio/jangtitlebgm.mp3');

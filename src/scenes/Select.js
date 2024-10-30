@@ -14,7 +14,7 @@ class Select extends Phaser.Scene {
 
 	preload() {
 		// GitHub Pages에서의 repository-name을 설정
-		this.load.setBaseURL('/PROJECT2');
+		this.load.setBaseURL('/PROJECT2'); //로컬 서버에서 실행하고싶으면 이부분을 모두 주석처리하면 됩니다
 		
 		this.load.audio('selecthover', '/audio/selecthover.mp3'); //케릭터 선택 효과음
 		this.load.audio('jangreac', '/audio/jangreac.mp3'); //짱구 선택 효과음
