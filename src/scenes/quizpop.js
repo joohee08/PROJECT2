@@ -7,7 +7,7 @@ class quizpop extends Phaser.Scene {
     preload() {
         // GitHub Pages에서의 repository-name을 설정
 		 this.load.setBaseURL('/PROJECT2');
-         
+
         this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         this.load.audio('quizpopbgm', '/audio/quizpopbgm.mp3'); // 퀴즈팝 BGM
         this.load.audio('correct', '/audio/correct.mp3'); // 정답
@@ -83,19 +83,19 @@ class quizpop extends Phaser.Scene {
     createQuestion() {
         this.questions = [
             {
-                question: "한국의 수도는?",
+                question: "이집트의 수도는?",
                 answers: [
-                    { text: "서울", isCorrect: true },
-                    { text: "부산", isCorrect: false },
-                    { text: "대구", isCorrect: false }
+                    { text: "카이로", isCorrect: true },
+                    { text: "오타와", isCorrect: false },
+                    { text: "카사블랑카", isCorrect: false }
                 ]
             },
             {
-                question: "2 + 2는?",
+                question: "12 + 15는?",
                 answers: [
-                    { text: "4", isCorrect: true },
-                    { text: "3", isCorrect: false },
-                    { text: "5", isCorrect: false }
+                    { text: "27", isCorrect: true },
+                    { text: "29", isCorrect: false },
+                    { text: "17", isCorrect: false }
                 ]
             },
             {
@@ -104,6 +104,30 @@ class quizpop extends Phaser.Scene {
                     { text: "3번째", isCorrect: true },
                     { text: "2번째", isCorrect: false },
                     { text: "4번째", isCorrect: false }
+                ]
+            },
+            {
+                question: "가능한,이 영어로 뭘까요?",
+                answers: [
+                    { text: "Possible", isCorrect: true },
+                    { text: "Impossible", isCorrect: false },
+                    { text: "Hopeful", isCorrect: false }
+                ]
+            },
+            {
+                question: "고려를 세운 왕의 이름은?",
+                answers: [
+                    { text: "태조 왕건", isCorrect: true },
+                    { text: "정종", isCorrect: false },
+                    { text: "광종", isCorrect: false }
+                ]
+            },
+            {
+                question: "올림픽이 처음 시작된 나라는 어디인가요",
+                answers: [
+                    { text: "아테네", isCorrect: true },
+                    { text: "베를린", isCorrect: false },
+                    { text: "파리", isCorrect: false }
                 ]
             }
         ];
